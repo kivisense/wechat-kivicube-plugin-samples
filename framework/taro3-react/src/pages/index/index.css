@@ -1,0 +1,9 @@
+/*
+  taro不支持在自定义组件上增加className，因此使用标签选择器。
+  https://taro-docs.jd.com/taro/docs/component-style/#%E5%A4%96%E9%83%A8%E6%A0%B7%E5%BC%8F%E7%B1%BB
+*/
+kivicube-scene {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
