@@ -1,12 +1,26 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "subpackages": [
+    {
+      "root": "Kivicube",
+      "pages": [
+        "pages/index"
+      ],
+      "plugins": {
+        "kivicube": {
+          "version": "1.4.0",
+          "provider": "wx3bbab3920eabccb2"
+        }
+      }
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "分包示例",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
