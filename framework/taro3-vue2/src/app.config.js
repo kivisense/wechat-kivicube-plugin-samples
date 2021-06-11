@@ -10,7 +10,7 @@ export default {
   },
   plugins: {
     kivicube: {
-      version: "1.3.4",
+      version: "1.5.5",
       provider: "wx3bbab3920eabccb2"
     }
   }
