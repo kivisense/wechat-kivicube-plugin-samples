@@ -18,6 +18,7 @@ export default class Index extends Component {
 
   // 注意：因为taro 3.X的Bug，导致暂时只能监听触发ready, photo和error事件，其他包含驼峰式名称的事件不能被监听触发
   // https://github.com/NervJS/taro/issues/8005
+  // https://github.com/NervJS/taro/issues/8416
   ready = () => {
     console.log("ready", this);
     wx.showToast({ title: "场景加载中...", icon: "none" });
