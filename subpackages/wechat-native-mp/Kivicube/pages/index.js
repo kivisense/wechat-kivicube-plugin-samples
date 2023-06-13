@@ -1,10 +1,5 @@
-const { setOptions, setPackageRootPath } = requirePlugin("kivicube");
-
-// 使用license开通图像追踪功能
-setOptions({
-  license: "OA7EIJ7JB4JmAZ5CiceSt0ScZael9lB0GJTb+5YJ5B6l8idXnc3eJ5/8wlH44ZPycUu1anh7DuOremv6GKmChel5PT4WcQNqny5/vpWy4Zr7Y119sdRK7bGEpBVx6b9IpO2/otJ7e7qQza9ESKBR+0i2EaYxd9khEdWE/ofgsONfEDW+mWqT26i598ev1zbhO8lwGYbUcqhL0UIrTjdLpfG0sBp2a4WqNc3YOnoh0e5EnzRn3h1AXVHpjutf86vwuDgJKq/MTVBZ7Y3dP7K7Jbye9whYL2nrgRQkvw38nsuo/FspqweCujz7MzP1wPpYZLms2KtgGdjzSfuTbWxThQ=="
+Page({
+  data: {
+    license: "ac25163c5062bfa1c18da02b0041aa750d3c46c564cb3a27a8cf511258822e7202b00694ccc5bcee66d743d68f71bd5ecf1540ca68d337d40fc71d744a358ced" // 使用license 去除水印
+  },
 });
-/* 插件版本>=1.5.5支持 */
-setPackageRootPath("Kivicube"); // 分包配置中的root值
-
-Page({});
