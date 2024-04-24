@@ -3,7 +3,7 @@
     <kivicube-scene
       class="kivicube"
       sceneId="9vR08tpLesfKVWs2XbbnNKSsX3JqpaAp"
-      :license="license"
+      :image2dLicense="license"
       @ready="ready"
       @error="error"
       @downloadAssetStart="downloadStart"
